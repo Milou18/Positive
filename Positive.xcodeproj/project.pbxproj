@@ -14,6 +14,7 @@
 		16D281951FB5AF94005021F1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 16D281931FB5AF94005021F1 /* LaunchScreen.storyboard */; };
 		16D281A01FB5AF94005021F1 /* positiveTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16D2819F1FB5AF94005021F1 /* positiveTests.swift */; };
 		16D281AB1FB5AF94005021F1 /* positiveUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16D281AA1FB5AF94005021F1 /* positiveUITests.swift */; };
+		16D281B91FB5C12D005021F1 /* KakitomeruViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16D281B81FB5C12D005021F1 /* KakitomeruViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +48,7 @@
 		16D281A61FB5AF94005021F1 /* positiveUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = positiveUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		16D281AA1FB5AF94005021F1 /* positiveUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = positiveUITests.swift; sourceTree = "<group>"; };
 		16D281AC1FB5AF94005021F1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		16D281B81FB5C12D005021F1 /* KakitomeruViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KakitomeruViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,6 +101,7 @@
 			children = (
 				16D2818A1FB5AF94005021F1 /* AppDelegate.swift */,
 				16D2818C1FB5AF94005021F1 /* ViewController.swift */,
+				16D281B81FB5C12D005021F1 /* KakitomeruViewController.swift */,
 				16D2818E1FB5AF94005021F1 /* Main.storyboard */,
 				16D281911FB5AF94005021F1 /* Assets.xcassets */,
 				16D281931FB5AF94005021F1 /* LaunchScreen.storyboard */,
@@ -261,6 +264,7 @@
 			files = (
 				16D2818D1FB5AF94005021F1 /* ViewController.swift in Sources */,
 				16D2818B1FB5AF94005021F1 /* AppDelegate.swift in Sources */,
+				16D281B91FB5C12D005021F1 /* KakitomeruViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
