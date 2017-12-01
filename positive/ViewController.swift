@@ -13,7 +13,6 @@ class ViewController: UIViewController {
     @IBOutlet  var Positivelabel: UILabel!
     @IBOutlet var kakitomerubutton: UIButton!
     @IBOutlet var furikaerubutton: UIButton!
-    @IBOutlet var setteibutton: UIButton!
 
     override func viewDidLoad() {
         super.viewDidLoad()
