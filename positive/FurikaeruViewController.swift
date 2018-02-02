@@ -11,7 +11,23 @@ import JBDatePicker
 
 class FurikaeruViewController: UIViewController ,JBDatePickerViewDelegate {
     
-    @IBOutlet var datePicker: JBDatePickerView!
+    
+    func didSelectDay(_ dayView: JBDatePickerDayView) {
+        
+        let formatter = DateFormatter()
+        formatter.dateFormat = "yyyy/MM/dd"
+        
+        memory1.text = formatter.string(for: dayView.date)
+        
+    }
+    
+    
+     @IBOutlet var memory1:UITextView!
+     @IBOutlet var memory2:UITextView!
+     @IBOutlet var memory3:UITextView!
+     @IBOutlet var memory4:UITextView!
+     @IBOutlet var memory5:UITextView!
+     @IBOutlet var datePicker: JBDatePickerView!
 
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -24,20 +40,5 @@ class FurikaeruViewController: UIViewController ,JBDatePickerViewDelegate {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
     }
-    func didSelectDay(_ dayView: JBDatePickerDayView) {
-        print("date selected: \(dayView.date!)")
-        
-    }
-    
-
-    /*
-    // MARK: - Navigation
-
-    // In a storyboard-based application, you will often want to do a little preparation before navigation
-    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-        // Get the new view controller using segue.destinationViewController.
-        // Pass the selected object to the new view controller.
-    }
-    */
 
 }

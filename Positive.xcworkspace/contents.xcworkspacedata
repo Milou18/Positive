@@ -8,6 +8,9 @@
       location = "group:FurikaeruViewController.xib">
    </FileRef>
    <FileRef
+      location = "group:diary.swift">
+   </FileRef>
+   <FileRef
       location = "group:Positive.xcodeproj">
    </FileRef>
    <FileRef
